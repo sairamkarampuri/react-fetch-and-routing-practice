@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.blog-full-detalis-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.blog-full-details-title {
+  text-align: center;
+}
+.blog-full-details-avathar-details {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.blog-full-details-avathar-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.blog-full-details-avathar-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.blog-full-details-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.blog-full-details-content {
+  font-size: 18px;
+  color: #8e8e8e;
+}
+/* --------------------------------------------------------------- */
+@media (width <= 768px) {
+  .blog-full-detalis-container {
+    width: 95%;
+  }
+  .blog-full-details-title {
+    font-size: 22px;
+  }
+  .blog-full-details-content {
+    font-size: 18px;
+  }
+}
+/* --------------------------------------------------------------- */

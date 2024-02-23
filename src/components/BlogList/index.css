@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+.Blog-list-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+@media (width <=768px) {
+  .Blog-list-container {
+    width: 96%;
+  }
+}
